@@ -1,6 +1,6 @@
-# 🐍 Snake Game in C++ — Detailed & Beginner‑Friendly Explanation
+# 🐍 Snake Game in C++ Basic Version
 
-This document explains the **Snake Game** C++ code in a clean, structured, and easy‑to‑understand way. The goal is to help **beginners and laymen** understand *what each part does*, *why it is written that way*, and *how the entire game flows internally*.
+This document explains the **Snake Game** C++ code in a clean, structured, and easy‑to‑understand way. The goal is to help **beginners** understand *what each part does*, *why it is written that way*, and *how the entire game flows internally*.
 
 ---
 
@@ -272,12 +272,3 @@ This loop runs until `gameOver == true`.
 ---
 
 ✨ **This project is an excellent foundation for understanding game loops, data structures, and real‑time systems in C++.**
-
-If you want, I can:
-
-* Refactor the code into classes (OOP version)
-* Make it cross‑platform
-* Optimize rendering
-* Add levels or speed scaling
-
-Just tell me 👍
