@@ -31,7 +31,7 @@ public:
         body = {{10, 10}, {10, 11}, {10, 12}};
         dir = Direction::UP;
     }
-    deque<Point> getBody() { return body; }
+    const deque<Point> &getBody() const { return body; }
     Point getHead() { return body.front(); }
     Direction getDirection() { return dir; }
     void setDirection(Direction newDir)
@@ -219,6 +219,7 @@ int main()
 
         if (eating)
         {
+            Beep(1000, 150); //Eating food sound
             score += 10;
             food.generate(width, height, snake);
         }
@@ -232,8 +233,14 @@ int main()
         }
 
         draw(width, height, snake, food, score);
-        Sleep(50);
+        int delay = max(30, 100 - score);
+        Sleep(delay);
     }
+    //Game Over Sound
+    Beep(330, 200);
+    Beep(294, 200);
+    Beep(262, 200);
+    Beep(220, 600);
     system("cls");
     cout << "============================" << endl;
     cout << "       GAME OVER!           " << endl;
