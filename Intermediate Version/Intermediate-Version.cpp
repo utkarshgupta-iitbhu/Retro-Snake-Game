@@ -32,8 +32,8 @@ public:
         dir = Direction::UP;
     }
     const deque<Point> &getBody() const { return body; }
-    Point getHead() { return body.front(); }
-    Direction getDirection() { return dir; }
+    Point getHead() const { return body.front(); }
+    Direction getDirection() const { return dir; }
     void setDirection(Direction newDir)
     {
         dir = newDir;
