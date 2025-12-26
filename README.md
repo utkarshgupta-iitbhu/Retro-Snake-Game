@@ -4,6 +4,9 @@ A console-based **Retro Snake Game written in C++**, designed to demonstrate the
 
 This repository is intentionally structured to help learners, reviewers, and interviewers **compare two versions of the same game**, understand design trade-offs, and see how software improves step-by-step.
 
+![Language](https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge)
+![Game](https://img.shields.io/badge/Project-Console%20Game-orange?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge)
 ---
 
 ## 📂 Repository Structure
@@ -148,3 +151,18 @@ Each version is intentionally preserved instead of replaced.
 If you are reviewing this repository — start with the **Basic Version**, then move to the **Intermediate Version** to fully appreciate the improvements.
 
 Happy Coding 🐍✨
+
+
+---
+
+## 🧠 Author & Technical Stack
+
+**Author:** Utkarsh Gupta  
+**Core Technologies:**  
+- C++ (Modern / OOP)
+- STL Containers & Algorithms
+- Windows Console API  
+
+![Language](https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge)
+![Game](https://img.shields.io/badge/Project-Console%20Game-orange?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge)
