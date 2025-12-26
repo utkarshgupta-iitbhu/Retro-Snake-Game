@@ -72,7 +72,7 @@ No frame-diffing or partial redraw system.
 
 ---
 
-## 7️⃣ No Intro / Menu Screen
+## 3️⃣ No Intro / Menu Screen
 
 ### ❌ Problem
 
@@ -96,7 +96,7 @@ Focus on core mechanics only.
 
 ---
 
-## 8️⃣ No Separation Between Game Logic & Rendering
+## 4️⃣ No Separation Between Game Logic & Rendering
 
 ### ❌ Problem
 
@@ -121,7 +121,7 @@ Single-file, console-focused design.
 
 ---
 
-## 🔟 Limited Error Handling & Validation
+## 5️⃣ Limited Error Handling & Validation
 
 ### ❌ Problem
 
